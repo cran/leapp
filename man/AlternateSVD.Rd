@@ -42,7 +42,7 @@ AlternateSVD(x, r, pred = NULL, max.iter = 10, TOL = 1e-04)
 \item{vest}{an n by r matrix, estiamted latent factors}
 }
 
-\author{Yunting Sun \email{yuntings@stanford.edu}, Nancy R.Zhang \email{nzhang@stanford.edu}, Art B.Owen \email{owen@stanford.edu}}
+\author{Yunting Sun \email{yunting.sun@gmail.com}, Nancy R.Zhang \email{nzhang@stanford.edu}, Art B.Owen \email{owen@stanford.edu}}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 

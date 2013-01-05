@@ -33,7 +33,7 @@ IPODFUN(X, Y, H, sigma, betaInit, method = "hard", TOL = 1e-04)
 She, Y. and Owen, A.B. "Outlier detection using nonconvex penalized regression" 2010
 }
 
-\author{Yunting Sun \email{yuntings@stanford.edu}, Nancy R.Zhang \email{nzhang@stanford.edu}, Art B.Owen \email{owen@stanford.edu}}
+\author{Yunting Sun \email{yunting.sun@gmail.com}, Nancy R.Zhang \email{nzhang@stanford.edu}, Art B.Owen \email{owen@stanford.edu}}
 
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

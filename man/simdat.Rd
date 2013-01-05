@@ -17,6 +17,6 @@
  \item{sigma}{A vector of length 1000, noise standard deviation for each of the 1000 genes}
 }
 
-\author{Yunting Sun \email{yuntings@stanford.edu}, Nancy R.Zhang \email{nzhang@stanford.edu}, Art B.Owen \email{owen@stanford.edu}}
+\author{Yunting Sun \email{yunting.sun@gmail.com}, Nancy R.Zhang \email{nzhang@stanford.edu}, Art B.Owen \email{owen@stanford.edu}}
 
 \keyword{datasets}

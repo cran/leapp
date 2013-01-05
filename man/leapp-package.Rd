@@ -11,15 +11,15 @@ These functions take a gene expression value matrix, a primary covariate vector,
 \tabular{ll}{
 Package: \tab leapp\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2011-06-03\cr
+Version: \tab 1.1\cr
+Date: \tab 2013-01-05\cr
 License: \tab What license is it under?\cr
 LazyLoad: \tab yes\cr
 }
 }
 \author{
 
-Maintainer: Yunting Sun <yuntings@stanford.edu>
+Maintainer: Yunting Sun <yunting.sun@gmail.com>
 
 }
 

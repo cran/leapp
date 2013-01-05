@@ -14,7 +14,7 @@ function(data,pred.prim,pred.covar=NULL,
     data = t(apply(data,1,scale, center = TRUE, scale = FALSE))
   
   if (num.fac == "buja")
-    num.fac = num.sv(data,cbind(pred.prim,pred.covar),B = perm.num)$n.sv
+    num.fac = num.sv(data,cbind(pred.prim,pred.covar),B = perm.num)
 
     
   if (is.null(O))
