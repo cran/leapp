@@ -107,13 +107,14 @@ IPOD <-
   gammas = NULL
   if (is.null(X)){
        betaInit = NULL
-    
-        lambdas = seq(0.1,2,length.out = length.out)*sqrt(2*log(N))
+       lambdas = seq(round(norm(matrix(Y,N,1),'I')/1+1),0, by = -0.1)
+   #     lambdas = seq(0.1,2,length.out = length.out)*sqrt(2*log(N))
   }else{
        betaInit = rlm(Y~X-1)$coefficients
        tmp = t(diag(ncol(H))-H)%*%Y/sqrt(1-diag(H))
   
-       lambdas = seq(0.1,2,length.out = length.out)*sqrt(2*log(N))
+      # lambdas = seq(0.1,2,length.out = length.out)*sqrt(2*log(N))    
+       lambdas = seq( round(norm(tmp,'I')/1+1) ,0, by = -0.1) 
   }
   for (sigma in lambdas){
       sigma = sigma/sqrt(2*log(N))
