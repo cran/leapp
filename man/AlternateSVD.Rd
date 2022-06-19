@@ -48,5 +48,4 @@ AlternateSVD(x, r, pred = NULL, max.iter = 10, TOL = 1e-04)
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{misc}
